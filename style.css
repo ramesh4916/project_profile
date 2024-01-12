@@ -529,6 +529,18 @@ footer>h1{
 #fcont1:hover{
     transform: scale(1.5);
 }
+#fcont2{
+    transition: 0.3s ease-in-out;
+}
+#fcont2:hover{
+    transform: scale(1.5);
+}
+#fcont3{
+    transition: 0.3s ease-in-out;
+}
+#fcont3:hover{
+    transform: scale(1.5);
+}
 
 
 
@@ -658,7 +670,7 @@ footer>h1{
         font-weight: 600;
     }
     #rcontant> p{
-        width: 90%;
+        width: 100%;
         text-align: justify;
         font-size: 7vw;
         letter-spacing: 1.5px;
@@ -886,8 +898,9 @@ footer>h1{
     }
     #fcont{
         flex-direction: column;
-        top: 20%;
+        top: 30%;
         
     }
+    
    
 }
